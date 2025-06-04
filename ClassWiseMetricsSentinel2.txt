@@ -1,0 +1,5 @@
+YOLOv8m-obb summary (fused): 237 layers, 26401225 parameters, 0 gradients, 80.8 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 8/8 [00:01<00:00,  4.43it/s]
+                   all        184        364      0.823      0.617      0.706      0.452
+            Large_Ship        184        112      0.896      0.925      0.959      0.704
+            Small_Ship        184        252       0.75      0.309      0.452        0.2
