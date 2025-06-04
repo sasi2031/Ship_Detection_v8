@@ -1,0 +1,43 @@
+# ship_detection.yaml
+path: D:/Sasi/ShipDetection_34_classes/Ship_Detection_Data  # Root directory of the dataset
+train: train/images  # Path to training images (relative to path)
+val: val/images  # Path to validation images (relative to path, placeholder)
+# test: test/images  # Path to test images (relative to path, placeholder)
+nc: 34  # Number of classes
+names:  # Class names in order of class_id
+  - Agosta_70_Submarine
+  - Agosta_90B_Submarine
+  - Azmat_Class_Fast_Attack_Craft
+  - Babur_Class_Corvette
+  - Barkat_Class
+  - Behar_Masah_Hydrographic_Survey_Ship
+  - Behar_Paima_Hydrographic_Survey_Ship
+  - Coastal_Tanker
+  - Commercial_Cargo
+  - Commercial_Tanker
+  - Fleet_Replenishment_Ship
+  - Fuqing_Class_Replenishment_Oiler
+  - Hingol_Class_vessel
+  - Jalalat_Class_Missile_Boat
+  - Larkana_Class
+  - MRTP_Class_Fast_Patrol_Craft
+  - Moawin_Replenishment_oiler
+  - Munsif_Class_Mine_Hunter
+  - Naval_Auxiliary
+  - Naval_Tanker
+  - Oliver_Hazard_Perry_Class_Frigate
+  - PNS_Rizwan
+  - Patrol_Forces
+  - Poolster_Class
+  - Rah_Naward_Sail_Training_Ship
+  - Small_Ship
+  - Small_Transport
+  - Survey_Ship
+  - Tariq_Class_Frigate
+  - Tughril_Class_Frigate
+  - Tugs
+  - Utility_Ship
+  - Yarmook_Class_Corvette
+  - Zulfiquar_Class_Frigate
+
+

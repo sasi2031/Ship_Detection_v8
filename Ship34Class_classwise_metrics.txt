@@ -1,0 +1,40 @@
+150 epochs completed in 25.656 hours.
+Optimizer stripped from runs\obb\train9\weights\last.pt, 54.0MB
+Optimizer stripped from runs\obb\train9\weights\best.pt, 54.0MB
+
+Validating runs\obb\train9\weights\best.pt...
+Ultralytics YOLOv8.1.10 🚀 Python-3.9.18 torch-1.10.1+cu113 CUDA:0 (NVIDIA RTX A5000, 24564MiB)
+YOLOv8m-obb summary (fused): 237 layers, 26419753 parameters, 0 gradients, 80.9 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 67/67 [00:18<00:00,  3.61it/s]
+                   all       1072       4448      0.879      0.867      0.884      0.786
+   Agosta_70_Submarine       1072        120      0.946      0.808      0.866      0.671
+Azmat_Class_Fast_Attack_Craft       1072         91      0.877      0.934      0.913      0.798
+  Babur_Class_Corvette       1072         39      0.898      0.906      0.913      0.805
+          Barkat_Class       1072         99       0.87      0.939       0.93      0.797
+Behar_Masah_Hydrographic_Survey_Ship       1072         21      0.939      0.905       0.89      0.794
+Behar_Paima_Hydrographic_Survey_Ship       1072         33      0.991      0.879      0.906      0.844
+        Coastal_Tanker       1072         11      0.968      0.909      0.911       0.87
+      Commercial_Cargo       1072       1252      0.918       0.82      0.875      0.769
+     Commercial_Tanker       1072        228       0.84      0.675      0.744      0.646
+Fleet_Replenishment_Ship       1072         14       0.63          1      0.918      0.819
+Fuqing_Class_Replenishment_Oiler       1072         35      0.818      0.943      0.892      0.827
+   Hingol_Class_vessel       1072        140      0.943      0.708      0.899      0.734
+Jalalat_Class_Missile_Boat       1072        129      0.949      0.864      0.957      0.814
+MRTP_Class_Fast_Patrol_Craft       1072         77      0.904      0.973      0.942      0.838
+Moawin_Replenishment_oiler       1072         22      0.814      0.818      0.852       0.82
+Munsif_Class_Mine_Hunter       1072        122      0.887      0.902      0.896      0.789
+       Naval_Auxiliary       1072         47      0.798      0.979      0.897      0.811
+          Naval_Tanker       1072        157      0.841      0.796      0.782      0.696
+Oliver_Hazard_Perry_Class_Frigate       1072         29      0.881      0.897       0.89      0.785
+        Poolster_Class       1072         19      0.874      0.895      0.927      0.876
+Rah_Naward_Sail_Training_Ship       1072         34          1      0.911      0.989      0.885
+            Small_Ship       1072        158      0.826       0.48      0.599      0.515
+       Small_Transport       1072          4      0.885       0.75      0.766      0.668
+   Tariq_Class_Frigate       1072        163      0.909      0.918      0.942      0.846
+ Tughril_Class_Frigate       1072         16      0.714          1      0.876      0.802
+                  Tugs       1072       1134      0.942       0.77      0.891      0.767
+          Utility_Ship       1072         58      0.856      0.931      0.909      0.817
+Yarmook_Class_Corvette       1072         40       0.82      0.925      0.895       0.83
+Zulfiquar_Class_Frigate       1072        156       0.96      0.904      0.967      0.869
+Speed: 0.3ms preprocess, 8.7ms inference, 0.0ms loss, 3.7ms postprocess per image
+Results saved to runs\obb\train9
