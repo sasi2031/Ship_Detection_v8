@@ -1,0 +1,12 @@
+# ship_detection.yaml
+path: D:/ShipDetection/Dataset  # Root directory of the dataset
+train: train/images  # Path to training images (relative to path)
+val: val/images  # Path to validation images (relative to path, placeholder)
+# test: test/images  # Path to test images (relative to path, placeholder)
+nc: 4  # Number of classes
+names:  # Class names in order of class_id
+  - Submarine
+  - Commercial
+  - Carrier
+  - Frigate
+

@@ -1,0 +1,46 @@
+Class Instance Counts:
+  Submarine (index 0): 1835
+  Commercial (index 1): 4895
+  Carrier (index 2): 226
+  Frigate (index 3): 10241
+
+Summary:
+Total label files processed: 5494
+Total class instances: 17197
+
+**********************************
+
+Dataset split complete:
+Train: 4608 images
+Val: 688 images
+Test: 690 images
+
+Class distribution per split:
+Train:
+  Submarine (index 0): 1719
+  Commercial (index 1): 4246
+  Carrier (index 2): 216
+  Frigate (index 3): 9048
+Val:
+  Submarine (index 0): 270
+  Commercial (index 1): 745
+  Carrier (index 2): 41
+  Frigate (index 3): 1447
+Test:
+  Submarine (index 0): 281
+  Commercial (index 1): 784
+  Carrier (index 2): 36
+  Frigate (index 3): 1414
+
+
+****************************************
+New Training Set Class Distribution:
+  Submarine (index 0): 2448
+  Commercial (index 1): 1168
+  Carrier (index 2): 1608
+  Frigate (index 3): 4179
+
+Summary:
+Total images in training set: 2214
+Total class instances: 9403
+Excess images moved to: D:/ShipDetection/Dataset/Excess

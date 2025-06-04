@@ -1,0 +1,38 @@
+(v8_312) D:\ShipDetection>python ClassInstanceCounter.py
+Starting class instance counting... for test
+
+Class Instance Counts:
+  Submarine (index 0): 166
+  Commercial (index 1): 885
+  Carrier (index 2): 31
+  Frigate (index 3): 1492
+
+Summary:
+Total label files processed: 548
+Total class instances: 2574
+
+(v8_312) D:\ShipDetection>python ClassInstanceCounter.py
+Starting class instance counting... for val
+
+Class Instance Counts:
+  Submarine (index 0): 246
+  Commercial (index 1): 924
+  Carrier (index 2): 19
+  Frigate (index 3): 1646
+
+Summary:
+Total label files processed: 546
+Total class instances: 2835
+
+(v8_312) D:\ShipDetection>python ClassInstanceCounter.py
+Starting class instance counting... for train
+
+Class Instance Counts:
+  Submarine (index 0): 1734
+  Commercial (index 1): 6549
+  Carrier (index 2): 176
+  Frigate (index 3): 12690
+
+Summary:
+Total label files processed: 4387
+Total class instances: 21149
